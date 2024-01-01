@@ -1,0 +1,85 @@
+.main {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 70px;
+}
+
+.picContainer {
+  height: 500px;
+  margin: 40px;
+  background-color: white;
+}
+
+.aboutContainer {
+  width: 80%;
+  margin: auto;
+  color: white;
+  margin-top: 50px;
+}
+
+.aboutTitle {
+  font-size: 2em;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+}
+
+.aboutText {
+  text-indent: 150px;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+
+.teamContainer {
+  color: white;
+  margin-top: 80px;
+}
+
+.teamTitle {
+  width: 80%;
+  margin: auto;
+  font-size: 2em;
+  position: sticky;
+  top: 70px;
+  background-color: black;
+  padding: 20px;
+  z-index: 90;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+}
+
+.teamCardCon {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactContainer {
+  width: 80%;
+  margin: auto;
+  color: white;
+  margin-top: 50px;
+}
+
+.contactTitle {
+  font-size: 2em;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+}
+
+.contactInfoText{
+  color: white;
+  font-weight: normal;
+  margin: 0px;
+  font-size: 1.2em;
+  margin: 10px;
+}

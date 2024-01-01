@@ -1,0 +1,62 @@
+.navbarContainer{
+    background-color: darkgray !important;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+    position: sticky;
+    top: 0px;
+    z-index:99;
+}
+.navbarLink{
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.BackToTopButtonShown{
+    bottom: 20px !important;
+}
+.BackToTopButton{
+    position: fixed;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    right: 20px;
+    bottom: -50px;
+    display: block;
+    transition: all 100ms linear;
+}
+.cardContainer{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: fit-content;
+    background-color: black;
+}
+.cardImage{
+    width: 200px;
+    height: 200px;
+    user-select: none;
+}
+.cardName{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0px;
+}
+.cardEduText{
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 0px;
+}
+.cardAbout{
+    font-size: 0.8em;
+    font-weight: normal;
+    margin: 0px;
+    margin-top: 8px;
+}
